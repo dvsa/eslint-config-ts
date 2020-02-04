@@ -37,7 +37,7 @@ A few of the default rules are switched off/customised as specified in the confi
 
 If you are using VSCode, you can add the ESLint extension to see lint issues as you type. You might also want to add a pre-push hook to your project such that the linter runs on pushing code and fails the push if there are unresolved issues.
 
-\*It is recommended to use npm3 or higher. Using a lower version of npm may cause issues due to changes in the way dependencies are loaded. Also, if you have any of the project's dependencies (see `package.json`) already installed in your project, perhaps for an old eslint config, it is best to uninstall them first to avoid possible conflicts.
+\*It is recommended to use npm6 or higher. Using a lower version of npm may cause issues due to the way dependencies are loaded. Also, if you have any of the project's dependencies (see `package.json`) already installed in your project, perhaps for an old eslint config, it is best to uninstall them first to avoid possible conflicts.
 
 ------------
 
