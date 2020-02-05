@@ -41,4 +41,4 @@ If you are using VSCode, you can add the ESLint extension to see lint issues as 
 
 ------------
 
-This shared config was made originally by the FTTS (Future Theory Test Service) team for use across our different project repos using a Node/Typescript/Mocha/Jest stack. To suit your project you may need to configure the `env` property in your `.eslintrc` for your specific tech stack.
+This shared config was  originally made by the FTTS (Future Theory Test Service) team for use across our different project repos using a Node/Typescript/Jest stack. To suit your project you may need to configure the `env` property in your `.eslintrc` for your specific tech stack.

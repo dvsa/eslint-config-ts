@@ -6,7 +6,6 @@ module.exports = {
   },
   env: {
     node: 'true',
-    mocha: 'true',
     jest: 'true'
   },
   plugins: [
