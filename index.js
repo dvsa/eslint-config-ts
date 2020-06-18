@@ -28,8 +28,9 @@ module.exports = {
     '@typescript-eslint/unbound-method': ['error', { 'ignoreStatic': true }], // Allow referencing unbound methods as long as they are static
     "class-methods-use-this": "off", // Stops us from having to delcare class methods which don't use this as static.
     "@typescript-eslint/interface-name-prefix": "off", // Interfaces don't have to start with a I
-    "lines-between-class-members": "off", // Allows you to not have a blank line between class members
-    "import/no-unresolved": "off", // Allows you to use imports which can't be resolved. For example @azure/functions
-    "@typescript-eslint/no-explicit-any": "off", // Allows you to use the any type
+    "import/no-unresolved": [ // Allows you to use imports which can't be resolved, enabled for everything not in the ignore list.
+      2,
+      { "ignore": ["@azure/functions"] } 
+    ]
   },
 }
