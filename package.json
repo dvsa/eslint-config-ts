@@ -1,6 +1,6 @@
 {
   "name": "@dvsa/eslint-config-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable ESLint config for Node/Typescript projects",
   "main": "index.js",
   "scripts": {
