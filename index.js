@@ -11,12 +11,14 @@ module.exports = {
   plugins: [
     '@typescript-eslint',
     'security',
+    'import'
   ],
   extends: [
     'airbnb-typescript/base', // Airbnb style guide rules
     'plugin:@typescript-eslint/recommended', // ESLint Typescript plugin recommended rules
     'plugin:@typescript-eslint/recommended-requiring-type-checking', // Additional type-checking rules
     'plugin:security/recommended', // Security rules
+    'plugin:import/typescript' // ESLint Typescript Import plugin
   ],
   rules: {
     'max-len': 'off', // Disable default max line length of 100
@@ -26,11 +28,11 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': 'off', // Allow defining functions (incl. arrow expressions) after use as per 'Stepdown Rule' best practice
     'no-param-reassign': ['error', { 'props': false }], // Allow reassigning parameter properties but not whole parameters
     '@typescript-eslint/unbound-method': ['error', { 'ignoreStatic': true }], // Allow referencing unbound methods as long as they are static
-    "class-methods-use-this": "off", // Stops us from having to delcare class methods which don't use this as static.
-    "@typescript-eslint/interface-name-prefix": "off", // Interfaces don't have to start with a I
-    "import/no-unresolved": [ // Allows you to use imports which can't be resolved, enabled for everything not in the ignore list.
+    'class-methods-use-this': 'off', // Stops us from having to declare class methods which don't use this as static.
+    '@typescript-eslint/interface-name-prefix': 'off', // Interfaces don't have to start with a I
+    'import/no-unresolved': [ // Allows you to use imports which can't be resolved, enabled for everything not in the ignore list.
       2,
-      { "ignore": ["@azure/functions"] } 
+      { 'ignore': ['@azure/functions'] } 
     ]
   },
 }
