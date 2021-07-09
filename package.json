@@ -1,22 +1,22 @@
 {
   "name": "@dvsa/eslint-config-ts",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Shareable ESLint config for Node/Typescript projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "typescript": ">=3.7.5",
-    "eslint": ">=6.8.0"
+    "eslint": ">=6.8.0",
+    "typescript": ">=3.7.5"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.1.0",
-    "eslint-config-airbnb-typescript": "^10.0.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^1.7.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-security": "^1.4.0"
   },
   "repository": "github:dvsa/eslint-config-ts",
