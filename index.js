@@ -33,6 +33,7 @@ module.exports = {
     'import/no-unresolved': [ // Allows you to use imports which can't be resolved, enabled for everything not in the ignore list.
       2,
       { 'ignore': ['@azure/functions'] } 
-    ]
+    ],
+    'eol-last': 'always' // Enforces that files end with a newline 
   },
 }
