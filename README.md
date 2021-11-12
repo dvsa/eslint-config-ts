@@ -17,17 +17,22 @@ A few of the default rules are switched off/customised as specified in the confi
 When making changes to this package you are unable to npm link to test the package locally due a bug in npm where peer dependencies are not installed. Github Issue - https://github.com/npm/cli/issues/2339
 
 ### Prerequisites
-- >= npm 7.x.x
-- The following dependencies are not present in your package.json (this package will install them)
--- eslint
--- @typescript-eslint/eslint-plugin
--- @typescript-eslint/typescript-estree
--- eslint-config-airbnb-typescript
--- eslint-plugin-import
--- eslint-plugin-jsx-a11y
--- eslint-plugin-react
--- eslint-plugin-react-hooks
--- eslint-plugin-security
+- \>= npm 7.x.x
+
+If the following dependencies are not present in your package.json, this package will install them (see `peerDependencies` in `package.json`):
+
+```
+eslint
+@typescript-eslint/eslint-plugin
+@typescript-eslint/typescript-estree
+eslint-config-airbnb-typescript
+eslint-plugin-import
+eslint-plugin-jsx-a11y
+eslint-plugin-react
+eslint-plugin-react-hooks
+eslint-plugin-security
+eslint-plugin-jest
+```
 
 ### Usage
 
