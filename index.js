@@ -74,6 +74,9 @@ module.exports = {
       { 'props': false }
     ],
     // @see https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/require-top-level-describe.md
-    "jest/require-top-level-describe": "error",
+    'jest/require-top-level-describe': 'error',
+    // @see https://github.com/jest-community/eslint-plugin-jest/blob/v25.3.0/docs/rules/no-hooks.md
+    // Enable use of hooks (beforeEach/afterEach) - state is useful in most testsuites
+    'jest/no-hooks': 'off',
   },
 }
