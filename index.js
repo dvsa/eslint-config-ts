@@ -73,6 +73,5 @@ module.exports = {
       'error',
       { 'props': false }
     ],
-    '@typescript-eslint/unbound-method': 'error',
   },
 }
