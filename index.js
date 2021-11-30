@@ -73,5 +73,7 @@ module.exports = {
       'error',
       { 'props': false }
     ],
+    // @see https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/require-top-level-describe.md
+    "jest/require-top-level-describe": "error",
   },
 }
