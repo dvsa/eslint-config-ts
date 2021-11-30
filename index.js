@@ -27,7 +27,7 @@ module.exports = {
     // Security rules
     'plugin:security/recommended',
     // Jest rules
-    'plugin:jest/recommended'
+    'plugin:jest/all'
   ],
   overrides: [
     // @see https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/unbound-method.md
