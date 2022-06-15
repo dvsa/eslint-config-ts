@@ -6,8 +6,8 @@ module.exports = {
     project: './tsconfig.json',
   },
   env: {
-    jest: 'true',
-    node: 'true'
+    jest: true,
+    node: true
   },
   plugins: [
     '@typescript-eslint',
@@ -17,6 +17,7 @@ module.exports = {
   ],
   extends: [
     // Airbnb style guide rules
+    'airbnb-base',
     'airbnb-typescript/base',
     // ESLint Typescript plugin recommended rules
     'plugin:@typescript-eslint/recommended',
