@@ -1,6 +1,6 @@
 {
   "name": "@dvsa/eslint-config-ts",
-  "version": "2.5.0",
+  "version": "3.0.0",
   "description": "Shareable ESLint config for Node/Typescript projects",
   "main": "index.js",
   "peerDependencies": {
