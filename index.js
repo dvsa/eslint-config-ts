@@ -26,7 +26,7 @@ module.exports = {
     // ESLint Typescript Import plugin
     'plugin:import/typescript',
     // Security rules
-    'plugin:security/recommended',
+    'plugin:security/recommended-legacy',
     // Jest rules
     'plugin:jest/recommended',
     'plugin:jest/style'
